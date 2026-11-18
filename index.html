@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070b12">
+  <meta name="description" content="kezui.cc — Automotive Editor. Edições automotivas, cinematic, velocity, AMV e JDM.">
+  <title>kezui.cc | Automotive Editor</title>
+  <style>
+    :root{--bg:#070b12;--panel:#0d1522;--blue:#168bff;--cyan:#72c5ff;--text:#f4f8ff;--muted:#9aabc0}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 80% 0%,#10294b 0,transparent 36%),var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1080px,92%);margin:auto}
+    header{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+    .logo{font-size:1.7rem;font-weight:900;letter-spacing:-1.5px}.logo span{color:var(--blue)}
+    nav{display:flex;gap:22px;color:var(--muted);font-size:.92rem}nav a:hover{color:var(--cyan)}
+    .hero{min-height:590px;display:grid;align-items:center;position:relative;overflow:hidden}
+    .hero:before{content:"";position:absolute;inset:5% -10% 5% 30%;background:linear-gradient(90deg,#070b12 0%,#070b1266 45%,#070b1240),url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1800&q=85') center/cover;border-radius:24px;opacity:.78}
+    .hero-content{position:relative;max-width:650px;padding:70px 0}
+    .eyebrow{color:var(--cyan);font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:.78rem}
+    h1{font-size:clamp(3.3rem,10vw,7rem);line-height:.88;letter-spacing:-5px;margin:18px 0}
+    h1 span{color:var(--blue)}.lead{color:var(--muted);font-size:1.08rem;line-height:1.7;max-width:510px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:9px;font-weight:800;border:1px solid #29415f}
+    .primary{background:var(--blue);border-color:var(--blue);color:white}.secondary{background:#0d1522cc}
+    section{padding:64px 0}.section-kicker{color:var(--blue);font-size:.75rem;font-weight:900;letter-spacing:3px}
+    h2{font-size:clamp(2rem,5vw,3rem);margin:10px 0 12px;letter-spacing:-1.5px}
+    .sub{color:var(--muted);line-height:1.7;margin:0 0 28px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .project{background:var(--panel);border:1px solid #1a2b42;border-radius:15px;overflow:hidden}
+    .project img{width:100%;height:190px;object-fit:cover;display:block}
+    .project div{padding:16px}.project h3{margin:0 0 6px}.project p{margin:0;color:var(--muted);font-size:.9rem}
+    .about{background:linear-gradient(135deg,#0d1929,#09111d);border:1px solid #1b3452;border-radius:18px;padding:28px;display:grid;grid-template-columns:1.3fr 1fr;gap:24px}
+    .tags{display:flex;flex-wrap:wrap;gap:9px;align-content:center}.tag{border:1px solid #244466;background:#0b1d31;color:#b8ddff;padding:9px 12px;border-radius:99px;font-size:.85rem}
+    .socials{display:flex;gap:12px;flex-wrap:wrap}.social{flex:1;min-width:150px;background:var(--panel);border:1px solid #1a2b42;padding:17px;border-radius:13px}
+    .social b{display:block;margin-bottom:5px}.social span{color:var(--muted);font-size:.85rem}.social:hover{border-color:var(--blue);transform:translateY(-2px)}
+    .contact{background:linear-gradient(110deg,#0c2340,#0b1421);border:1px solid #1b4775;padding:32px;border-radius:18px}
+    footer{border-top:1px solid #17263a;padding:25px 0;color:var(--muted);font-size:.85rem}
+    @media(max-width:720px){nav{gap:12px;font-size:.8rem}.hero{min-height:540px}.hero:before{inset:8% -30% 8% 5%;opacity:.48}.hero-content{padding:60px 0}h1{letter-spacing:-3px}.grid{grid-template-columns:1fr 1fr}.project img{height:145px}.about{grid-template-columns:1fr}}
+    @media(max-width:460px){header{align-items:flex-start;gap:15px;flex-direction:column}nav{width:100%;justify-content:space-between}.grid{grid-template-columns:1fr}.project img{height:190px}.hero{min-height:500px}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <a class="logo" href="#">kezui<span>.cc</span></a>
+    <nav aria-label="Navegação"><a href="#sobre">Sobre</a><a href="#trabalhos">Trabalhos</a><a href="#redes">Redes</a><a href="#contato">Contato</a></nav>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-content">
+        <div class="eyebrow">Automotive editing studio</div>
+        <h1>BEYOND<br>THE <span>ORDINARY.</span></h1>
+        <p class="lead">Transformando carros em experiências visuais. Edições automotivas em diferentes estilos, com criatividade, ritmo e identidade.</p>
+        <div class="actions"><a class="btn primary" href="#trabalhos">VER TRABALHOS</a><a class="btn secondary" href="#contato">FALE COMIGO</a></div>
+      </div>
+    </section>
+
+    <section class="wrap" id="sobre">
+      <div class="section-kicker">01 / SOBRE</div><h2>Visuals with attitude.</h2>
+      <div class="about">
+        <div><p class="sub">Sou kezui.cc, editor automotivo. Este espaço reúne meus projetos, estilos e novidades. Do JDM ao cinematic, cada edição tem sua própria identidade.</p><p class="sub">Quer uma edição ou colaboração? Entre em contato pelas minhas redes.</p></div>
+        <div class="tags"><span class="tag">Cinematic</span><span class="tag">Velocity</span><span class="tag">AMV</span><span class="tag">JDM</span><span class="tag">Car edits</span><span class="tag">Transitions</span></div>
+      </div>
+    </section>
+
+    <section class="wrap" id="trabalhos">
+      <div class="section-kicker">02 / PORTFÓLIO</div><h2>Selected works.</h2>
+      <p class="sub">Estes são espaços de exemplo. Depois vamos trocar pelas suas próprias fotos e edições.</p>
+      <div class="grid">
+        <article class="project"><img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80" alt="Carro esportivo"><div><h3>Cinematic</h3><p>Atmosfera, luz e movimento.</p></div></article>
+        <article class="project"><img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=900&q=80" alt="Carro em estrada"><div><h3>Velocity</h3><p>Ritmo e transições.</p></div></article>
+        <article class="project"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80" alt="Porsche"><div><h3>Automotive</h3><p>Paixão por cada detalhe.</p></div></article>
+      </div>
+    </section>
+
+    <section class="wrap" id="redes">
+      <div class="section-kicker">03 / SOCIAL</div><h2>Follow the journey.</h2><p class="sub">Acompanhe minhas edições e novidades em todas as plataformas.</p>
+      <div class="socials">
+        <a class="social" href="https://www.instagram.com/kezui_cc18/" target="_blank" rel="noopener"><b>◎ Instagram</b><span>@kezui_cc18 ↗</span></a>
+        <a class="social" href="https://www.tiktok.com/@kezuiofc" target="_blank" rel="noopener"><b>♪ TikTok</b><span>@kezuiofc ↗</span></a>
+        <a class="social" href="https://youtube.com/@km1vision" target="_blank" rel="noopener"><b>▶ YouTube</b><span>@km1vision ↗</span></a>
+      </div>
+    </section>
+
+    <section class="wrap" id="contato">
+      <div class="contact"><div class="section-kicker">04 / CONTATO</div><h2>Let's create something.</h2><p class="sub">Para orçamento, projetos ou collabs, mande uma mensagem pelo Instagram.</p><a class="btn primary" href="https://ig.me/m/kezui_cc18" target="_blank" rel="noopener">CHAMAR NA DM ↗</a></div>
+    </section>
+  </main>
+  <footer><div class="wrap">© 2026 kezui.cc — Automotive Editing Studio</div></footer>
+</body>
+</html>
